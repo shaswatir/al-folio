@@ -15,7 +15,7 @@ layout: default
     {% if page.profile %}
     <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
       {% if page.profile.image %}
-        <img class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
+        <img class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: 'assets/img/' }}">
       {% endif %}
       {% if page.profile.address %}
         <div class="address">
@@ -29,6 +29,14 @@ layout: default
       {{ content }}
     </div>
 
+    {% if page.social %}
+    <div class="social">
+      <div class="contact-icons">
+        {% include social.html %}
+      </div>
+    </div>
+    {% endif %}
+
     {% if page.news %}
       {% include news.html %}
     {% endif %}
@@ -37,14 +45,6 @@ layout: default
       {% include selected_papers.html %}
     {% endif %}
 
-    {% if page.social %}
-    <div class="social">
-      <div class="contact-icons">
-        {% include social.html %}
-      </div>
-      <div class="contact-note">{{ site.contact_note }}</div>
-    </div>
-    {% endif %}
   </article>
 
 </div>
