@@ -2,25 +2,35 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+#description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <h5> <b>Assistant Professor <br>Department of Information Technology <br>RCC Institute of Information Technology</h5>
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: >
+    <p>Room #207, New Building</p>
+    <p>Canal South Road, Beliaghata</p>
+    <p>Kolkata, West Bengal</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
+#news: true  # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
 ---
+<hr>
+<h5><b style="color:coral">BIOGRAPHICAL SKETCH:</b></h5>
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Dr. Shaswati Roy completed her B.Tech in Information Technology from <b style="color:cornflowerblue"> Institute of Engineering and Management (IEM) </b>, Kolkata and M.E. in Information Technology from <b style="color:cornflowerblue">Jadavpur University</b>, Kolkata. She received her Ph.D. degree (Tech) in <b style="color:cornflowerblue">Computer Science and Engineering of University of Calcutta</b> in April 2021. She carried out her research work at the <b style="color:cornflowerblue">Machine Intelligence Unit, Indian Statistical Institute</b>, Kolkata as its research fellow. She completed her Ph.D. research work under the guidance of <a href = "https://www.isical.ac.in/~pmaji/"  target="_blank"><b style="color:MediumSeaGreen">Prof. Pradipta Maji</b></a>.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Currently, Dr. Roy is a faculty member in the <b style="color:cornflowerblue">Department of Information Technology, RCC Institute of Information Technology</b>, Kolkata, India.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+She has been awarded <b style="color:MediumSeaGreen">University Medal</b> for standing first in M.E. She has received the prestigious <b style="color:MediumSeaGreen">INSPIRE Fellowship Award</b> of the Department of Science and Technology (DST), Govt. of India for the years 2015-2020.
+
+Her hobbies are reading story books, travelling and sports.
+<br><br>  
+<h5><b style="color:coral">RESEARCH INTERESTS:</b></h5>
+<ul>
+<li>Medical Image Processing</li>
+<li>Machine Learning</li>
+<li>Soft Computing</li>
+</ul>
